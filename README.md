@@ -4,7 +4,7 @@ This is my portfolio webpage showcasing personal projects, providing an introduc
 
 The portfolio is designed to introduce the owner and their work. It includes a navigation bar with links to different sections, such as "About Me," "Projects," and "Contact." The welcome section gives a brief introduction, and the "About Me" section provides more details about me.
 
-================================================================================
+===========================================================================
 
 # Meu Portfolio
 
