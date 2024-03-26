@@ -13,52 +13,110 @@
         <h1>My Portfolio</h1>
         <ul>
             <li><a href="#about">About me</a></li>
+            <li><a href="#certifications">Certifications and courses</a></li>
+            <li><a href="#htb">Hack the box</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#" id="profile-link" target="_blank">Profile</a></li>
         </ul>
     </nav>
 
-    <section id="welcome-section" class="about">
-        <h1>Welcome to My Portfolio</h1>
+<hr>
+
+    <div class="content-wrapper">
+        <aside class="sidebar">
+            <h2>Tools and Technologies</h2>
+
+            <div class="skills">
+                <h4>Main Skills</h4>
+                <ul>
+                    <li>💻 Linux</li>
+                    <li>🔐 Cybersecurity</li>
+                    <li>🌐 Front-end Development</li>
+                </ul>
+
+                <hr>
+
+                <h4>Tools and Technologies</h4>
+                <ul>
+                    <li class="skill-item">Git <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="20" height="20"/></li>
+                    <li class="skill-item">HTML/CSS <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="20" height="20"/><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="20" height="20"/></li>
+                    <li class="skill-item">Python <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20"/></li>
+                    <li class="skill-item">Ruby <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" width="20" height="20"/></li>
+                    <li class="skill-item">Linux <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="20" height="20"/></li>
+                </ul>
+            </div>
+
+        </aside>
+    </div>
+
+    <div class="main-content">
+        <section id="about" class="about">
+            <h3>About me...</h3>
+            <p>Hello! My name is Eduardo Santos, I am from Brazil, and I study cybersecurity and programming, currently seeking a job opportunity.</p>
+
+            <p>Throughout my studies in Cybersecurity, I delved into the intricacies of computer networks, log analysis, and a variety of tools used in ethical hacking/penetration testing. In the field of programming languages, in addition to being proficient in HTML and CSS, I am studying programming logic and currently learning Python and JavaScript.</p>
+
+            <p>Additionally, as a proactive, organized and committed individual who strives for high-quality results. I work well in a team, and I am always looking to learn more to develop professionally.</p>
+
+            <p>My native language is Portuguese, and I am advanced in English and proficient in Spanish.</p>
+        </section>
+
+<hr>
+
+    <h2 id="certifications" class="scroll-link certifications">CERTIFICATIONS AND COURSES</h2>
+    <section class="certifications">
+        <div class="certification-block">
+            <img src="https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" alt="
+            cloud practitioner
+            ">
+            <h3>Cloud Practitioner</h3>
+            <p>AWS Certification</p>
+        </div>
+    </section>
+<hr>
+
+    <section class="htb">
+    <h2 class="scroll-link htb" id="htb">HACK THE BOX</h2>
+        
+    <div class="htb-block">
+        <img src="https://academy.hackthebox.com/storage/modules/18/logo.png" alt="
+        Linux Fundamentals
+        ">
+        <h3>Linux Fundamentals</h3>
+        <p>Linux structure</p>
+        <p>See: <a href="https://academy.hackthebox.com/achievement/705100/18" target="_blank">here</a></p>
+    </div>
+
     </section>
 
-    <section id="about" class="about">
-        <h1>About me...</h1>
-        <p>Hello! My name is Eduardo Santos, I am from Brazil, and I study cybersecurity and programming, currently seeking a job opportunity.</p>
+<hr>
 
-        <p>Throughout my studies in Cybersecurity, I delved into the intricacies of computer networks, log analysis, and a variety of tools used in ethical hacking/penetration testing. In the field of programming languages, in addition to being proficient in HTML and CSS, I am studying programming logic and currently learning Python and JavaScript.</p>
+        <h2 class="scroll-link projects" id="projects">PROJECTS</h2>
 
-        <p>Additionally, as a proactive, organized and committed individual who strives for high-quality results. I work well in a team, and I am always looking to learn more to develop professionally.</p>
+        <section class="front-end-projects">
+            <div class="project-block">
+                <img src="./src/img/screenshot1.png" alt="project 1">
+                <h3>Projeto Linux Wiki Clone</h3>
+                <p>This is a DIO project</p>
+                <p>See: <a href="https://github.com/TheEduSantos/desafio-wikipedia-DIO" target="_blank">here</a></p>
+            </div>
 
-        <p>My native language is Portuguese, and I am advanced in English and proficient in Spanish.</p>
-    </section>
+            <div class="project-block">
+                <img src="./src/img/screenshot2.png" alt="project 2">
+                <h3>Tribute Page</h3>
+                <p>This is a FreeCodeCamp certification project</p>
+                <p>See: <a href="https://github.com/TheEduSantos/Responsive-Web-Design---Tribute-Page" target="_blank">here</a></p>
+            </div>
 
-    <h1 class="scroll-link projects" id="projects">PROJECTS</h1>
-
-    <section id="projects" class="front-end-projects">
-        <div class="project-tile">
-            <img src="./src/img/screenshot1.png" alt="project 1">
-            <h3>Projeto Linux Wiki Clone</h3>
-            <p>This is a DIO project</p>
-            <p>See: <a href="https://github.com/TheEduSantos/desafio-wikipedia-DIO" target="_blank">here</a></p>
-        </div>
-
-        <div class="project-tile">
-            <img src="./src/img/screenshot2.png" alt="project 2">
-            <h3>Tribute Page</h3>
-            <p>This is a FreeCodeCamp certification project</p>
-            <p>See: <a href="https://github.com/TheEduSantos/Responsive-Web-Design---Tribute-Page" target="_blank">here</a></p>
-        </div>
-
-        <div class="project-tile">
-            <img src="./src/img/screenshot3.png" alt="project 3">
-            <h3>Ferris Wheel</h3>
-            <p>a freecodecamp project with some adaptations</p>
-            <p>See: <a href="https://github.com/TheEduSantos/project-Ferris-Wheel" target="_blank">here</a></p>
-        </div>
-
-    </section>
+            <div class="project-block">
+                <img src="./src/img/screenshot3.png" alt="project 3">
+                <h3>Ferris Wheel</h3>
+                <p>a freecodecamp project with some adaptations</p>
+                <p>See: <a href="https://github.com/TheEduSantos/project-Ferris-Wheel" target="_blank">here</a></p>
+            </div>
+        </section>
+        
+    </div>
 
     <hr>
 
