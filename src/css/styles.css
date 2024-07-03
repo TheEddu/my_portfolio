@@ -80,7 +80,6 @@ footer {
 }
 
 .about {
-    /* background-color: darkslategrey; */
     text-align: center;
     padding: 70px;
     font-size: 32px;
@@ -106,7 +105,7 @@ footer {
 .project-block, .htb-block, .certification-block, .article-block, .senac-courses-block, .dio-courses-block {
     display: inline-block;
     width: 200px;
-    height: 450px;
+    height: 460px;
     margin: 10px;
     border: 3px solid;
     box-sizing: border-box;
